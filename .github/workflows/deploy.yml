@@ -44,7 +44,7 @@ jobs:
       - name: Install dependencies and build with Vite
         run: |
           cd web
-          pnpm install --frozen-lockfile
+          pnpm install
           pnpm run build
 
       - name: Upload artifact
